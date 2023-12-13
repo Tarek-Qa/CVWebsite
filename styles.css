@@ -1,0 +1,62 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #20232A;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: #61DAFB;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Contacts Header */
+h2 {
+    color: #20232A;
+    margin-bottom: 10px;
+}
+
+/* Contacts List */
+ol {
+    background-color: #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    list-style-position: inside;
+}
+
+ol li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
